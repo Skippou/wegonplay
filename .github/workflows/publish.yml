@@ -31,12 +31,13 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
+        working-directory: ./wegonplay_frontend
         run: npx next build
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./wegonplay_frontend/out
+          path: ./out
 
   deploy:
     environment:
