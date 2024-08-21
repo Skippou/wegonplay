@@ -16,10 +16,10 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-center">Wegonplay Discord</h1>
         </header>
 
-        <section className="my-10">
-          <div className="flex flex-col w-full max-w-4xl text-center justify-center">
+        <section className="my-10 ">
+          <div className="mx-auto flex flex-col w-full max-w-4xl text-center justify-center">
             <Image
-              src="/wegonplay/wegonplay-logo.webp"
+              src="/wegonplay-logo.webp"
               alt="Wegonplay Logo"
               width={300}
               height={300}

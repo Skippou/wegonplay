@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/wegonplay",
-    output: "export",
-    images: {
-        unoptimized: true,
-    }
+    // basePath: "/wegonplay",
+    // output: "export",
+    // images: {
+    //     unoptimized: true,
+    // }
 };
 
 export default nextConfig;
